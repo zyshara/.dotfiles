@@ -1,6 +1,6 @@
-# # # # # # #
-#
-# # # # # # #
+####################################
+# Login for zyarash Unix boxes :) #
+####################################
 
 
 cat << \EOF
@@ -24,4 +24,4 @@ cat << EOF
 EOF
 
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"

@@ -35,10 +35,4 @@ export TERM="xterm-256color"
 HISTFILE=~/.history
 HISTSIZE=1000000
 
-# Dircolors
-if ! [[ $OSTYPE == "darwin"* ]] then
-    eval `dircolors ~/.dircolors`
-fi
-
 export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh

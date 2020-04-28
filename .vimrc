@@ -1,7 +1,6 @@
-" " " " " " "
-"
-" " " " " " "
-
+""""""""""""""""""""""""""""""""""""
+" Vimrc for zyarash Unix boxes :)  "
+""""""""""""""""""""""""""""""""""""
 
 " Pathogen for managing vim packages
 execute pathogen#infect()

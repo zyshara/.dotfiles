@@ -25,7 +25,7 @@ zstyle ':prezto:module:editor' key-bindings 'vi'
 zstyle ':prezto:module:editor' dot-expansion 'yes'
 
 # Prompt/Theme
-zstyle ':prezto:module:prompt' theme 'zysh'
+zstyle ':prezto:module:prompt' theme 'steeef'
 
 # Substring history highlighting
 zstyle ':prezto:module:history-substring-search:color' found 'underline'
