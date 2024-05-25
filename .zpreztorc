@@ -1,7 +1,7 @@
-# # # # # # #
-#
-# # # # # # #
-
+#####################################
+# filename: .zpreztorc
+# description: .zpreztorc configuration for @zyshara
+#####################################
 
 zstyle ':prezto:*:*' color 'yes'
 

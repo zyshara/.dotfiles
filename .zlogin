@@ -1,7 +1,7 @@
-####################################
-# Login for zyarash Unix boxes :) #
-####################################
-
+#####################################
+# filename: .zlogin
+# description: .zlogin configuration for @zyshara
+#####################################
 
 cat << \EOF
                           ,.
@@ -22,6 +22,3 @@ cat << EOF
               Welcome $USER!
       $(date)
 EOF
-
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"

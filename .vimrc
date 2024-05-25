@@ -1,9 +1,6 @@
 """"""""""""""""""""""""""""""""""""
-" Vimrc for zyarash Unix boxes :)  "
+" vimrc for zyshara
 """"""""""""""""""""""""""""""""""""
-
-" Pathogen for managing vim packages
-execute pathogen#infect()
 
 "  Syntax + Filetype rules
 syntax enable
@@ -13,22 +10,22 @@ filetype plugin on
 filetype plugin indent on
 
 " JS
-au FileType javascript set sw=4
-au FileType javascript set ts=4
+au FileType javascript set sw=3
+au FileType javascript set ts=3
 
 " HTML
-au FileType html set sw=4
-au FileType html set ts=4
+au FileType html set sw=3
+au FileType html set ts=3
 
 " Ruby
-au FileType ruby set sw=4
-au FileType ruby set ts=4
-au FileType eruby set sw=4
-au FileType eruby set ts=4
+au FileType ruby set sw=3
+au FileType ruby set ts=3
+au FileType eruby set sw=3
+au FileType eruby set ts=3
 
 " CSS
-au FileType css set sw=4
-au FileType css set ts=4
+au FileType css set sw=3
+au FileType css set ts=3
 
 " Alias commands for caps
 command W w

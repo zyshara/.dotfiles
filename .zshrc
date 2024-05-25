@@ -1,7 +1,7 @@
-# # # # # # #
-#
-# # # # # # #
-
+#####################################
+# filename: .zshrc
+# description: .zshrc configuration for @zyshara
+#####################################
 
 # Init prompt
 autoload -U promptinit
@@ -20,11 +20,6 @@ alias rm="rm -f"
 export EDITOR="vim"
 export VISUAL="vim"
 
-# Default PATH
-export PATH=/usr/local/bin:$PATH
-export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin
-export PATH=$PATH:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
-
 # RVM
 export PATH=$PATH:$HOME/.rvm/bin
 
@@ -35,4 +30,6 @@ export TERM="xterm-256color"
 HISTFILE=~/.history
 HISTSIZE=1000000
 
-export NVM_DIR=~/.nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
