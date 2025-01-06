@@ -15,6 +15,7 @@ fi
 # Aliasing
 alias l="ls -al"
 alias rm="rm -f"
+alias nv="nvim"
 
 # Default Editor
 export EDITOR="vim"
